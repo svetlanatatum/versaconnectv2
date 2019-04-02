@@ -1,0 +1,8 @@
+.footer-info-small {
+    padding: 10px 40px;
+}
+
+.footer-info-small__content {
+    color: #696F75;
+    font-size: small;
+}

@@ -1,0 +1,22 @@
+.call-us {
+    display: flex;
+    color: white;
+    background-color: #50A75C;
+}
+
+.call-us__icon {
+    padding: 5px;
+    font-size: 16px;
+}
+
+.call-us__link {
+    text-decoration: none;
+    color: white;
+    text-align: right;
+    padding: 7px;
+}
+
+.call-us__link:hover {
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,21 @@
+.colours-list {
+    
+}
+
+.colours-list__item {
+    border: none;
+}
+
+.colours-list__link {
+    display: block;
+    padding: .5rem 1rem; 
+}
+
+.colours-list__link:hover {
+    text-decoration: none;
+}
+
+.nav-pills .colours-list__link.active,
+.nav-pills .show > .colours-list__link {
+  color: #fff;
+}

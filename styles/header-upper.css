@@ -1,0 +1,10 @@
+.header-upper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-upper__item {
+    font-size: 12px;
+    margin-left: 20px;
+}

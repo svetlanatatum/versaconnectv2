@@ -1,0 +1,16 @@
+.tabs {
+    background-color: #FFFFFF;
+    padding: 40px 0 60px 0;
+}
+
+.tabs__link {
+    text-align: center;
+}
+
+.tabs__nav-link {
+    color: #123E78;
+}
+
+.tabs__nav-link:hover .nav-link {
+    color: #123E78;
+}

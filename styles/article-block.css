@@ -1,0 +1,16 @@
+.article-block {
+    background-color: #EFEFEF;
+    padding: 50px;
+}
+
+.article-block__content {
+
+}
+
+.article-block__link {
+    text-align: center;
+}
+
+.article-block__link:hover {
+    text-decoration: none;
+}

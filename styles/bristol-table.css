@@ -1,0 +1,42 @@
+.bristol-table {
+    width: 100%;
+}
+
+.bristol-table__head {
+
+}
+
+.bristol-table__head-row {
+
+}
+
+.bristol-table__head-cell {
+    width: 33.3%;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.bristol-table__body {
+    border: 1px solid #C3C5C6;
+}
+
+.bristol-table__row {
+    border-bottom: 1px solid #C3C5C6;
+}
+
+.bristol-table__row:last-child {
+    border-bottom: 0;
+}
+
+.bristol-table__cell {
+    width: 33.3%;
+    padding: 20px;
+}
+
+.bristol-table__cell:last-child {
+    border-left: 1px solid #C3C5C6;
+}
+
+.bristol-table__cell_parameter {
+    background-color: #E5E8E8;
+}

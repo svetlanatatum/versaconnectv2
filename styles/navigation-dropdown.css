@@ -1,0 +1,9 @@
+.navigation-dropdown {
+    display: flex;
+    align-items: center; 
+    padding: 15px;
+}
+
+.navigation-dropdown__icon {
+    margin-left: 15px;
+}

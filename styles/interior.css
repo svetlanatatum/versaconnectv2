@@ -1,0 +1,31 @@
+.interior {
+    
+}
+
+.interior__img {
+    width: 100%;
+}
+
+.interior__item {
+    margin-top: 10px;
+}
+
+.interior__item:hover .check-icon {
+    color: #FFFFFF;
+    display: block;
+}
+
+.interior__item-title {
+    margin-top: 20px;
+    font-weight: 900;
+}
+
+.interior__item-content {
+    float: left;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.interior__panel {
+    
+}

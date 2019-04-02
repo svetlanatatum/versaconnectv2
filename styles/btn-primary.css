@@ -1,0 +1,14 @@
+.btn-primary {
+    background-color: #123E78;
+    border: none;
+    height: calc(2.25rem + 2px);
+}
+
+.btn-primary:hover {
+    background-color: #123E78;
+    border: none;
+}
+
+.btn-primary:focus, .btn-primary:active {
+    box-shadow: none;
+  }

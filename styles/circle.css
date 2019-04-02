@@ -1,0 +1,55 @@
+.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    box-shadow: 1px 1px 1px lightgrey;
+}
+
+.circle_E93F36 {
+    background-color: #E93F36;
+}
+
+.circle_000000 {
+    background-color: #000000;
+}
+
+.circle_141F2E {
+    background-color: #141F2E;
+}
+
+.circle_202754 {
+    background-color: #202754;
+}
+
+.circle_3F473F {
+    background-color: #3F473F;
+}
+
+.circle_646352 {
+    background-color: #646352;
+}
+
+.circle_8F948F {
+    background-color: #8F948F;
+}
+
+.circle_B1BDC9 {
+    background-color: #B1BDC9;
+}
+
+.circle_CCC65D {
+    background-color: #CCC65D;
+}
+
+.circle__checkmark {
+    color: transparent;
+    font-size: 20px;
+}
+
+.colours-list__link.active .circle .circle__checkmark {
+    color: white;
+}

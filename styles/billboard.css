@@ -1,0 +1,35 @@
+.billboard {
+    padding: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.billboard_main {
+    background-image: url(https://www.bristolstreetversa.com/custom/51650.jpg);
+}
+
+.billboard_keepinggoing {
+    background-image: url(https://www.bristolstreetversa.com/custom/51651.jpg);
+}
+
+.billboard__article {
+    background:rgba(255,255,255, 0.8);
+    width: 400px;
+    padding: 30px;
+}
+
+.billboard__title {
+    font-weight: bold;
+    line-height: 1em;
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.billboard__content {
+    margin: 0;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    font-size: 16px;
+    font-weight: normal;
+}

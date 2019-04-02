@@ -1,0 +1,14 @@
+.adjust-indicator {
+    
+}
+
+.adjust-indicator__option {
+    color: #4057A3;
+    border: 1px solid lightgray;
+    padding: 3px;
+}
+
+.adjust-indicator__option_contrast {
+    color: yellow;
+    background-color: black;
+}

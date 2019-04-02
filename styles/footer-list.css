@@ -1,0 +1,8 @@
+.footer-list {
+    padding: 90px 0 0 50px;
+}
+
+.footer-list__item {
+    color: white;
+    margin-bottom: 10px;
+}

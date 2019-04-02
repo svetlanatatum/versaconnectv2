@@ -1,0 +1,18 @@
+.bristol-button {
+    color: white;
+    background-color: #307FDB;
+    padding: 10px 50px 10px 50px;
+    border-radius: 0.25em;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
+
+.bristol-button_full {
+    width: 100%;
+}
+
+.bristol-button:hover {
+    color: white;
+    text-decoration: none;
+}

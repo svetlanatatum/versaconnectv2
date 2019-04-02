@@ -1,0 +1,56 @@
+.bristol-checkbox {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    float: right;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.bristol-checkbox__input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.bristol-checkbox__checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid #73818D;
+}
+
+
+.bristol-checkbox .bristol-checkbox__input:checked ~ .bristol-checkbox__checkmark {
+    background-color: #A7B0B7;
+    border: none;
+}
+
+/* .bristol-checkbox__checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+} */
+
+.bristol-checkbox .bristol-checkbox__input:checked ~ .bristol-checkbox__checkmark:after {
+    display: block;
+}
+
+.bristol-checkbox .bristol-checkbox__checkmark:after {
+    color: white;
+}
+ 

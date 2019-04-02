@@ -1,0 +1,25 @@
+.popup {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 400px;
+    background-color: white;
+    border: 1px solid lightgray;
+    font-family: 'Roboto', sans-serif;
+}
+
+.popup__form {
+    padding: 10px 20px;
+}
+
+.popup__title {
+    font-weight: bold;
+}
+
+.popup__content {
+    font-size: 14px;
+}
+
+.popup__input {
+    display: flex;
+}

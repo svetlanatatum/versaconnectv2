@@ -1,0 +1,21 @@
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {
+    color: #A7B0B7;
+    border: 1px solid black;
+}
+  
+.custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::before {
+    border-color: #007bff;
+    background-color: #A7B0B7;
+}
+  
+.custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 4'%3e%3cpath stroke='%23fff' d='M0 2h4'/%3e%3c/svg%3e");
+}
+  
+.custom-checkbox .custom-control-input:disabled:checked ~ .custom-control-label::before {
+    background-color: rgba(0, 123, 255, 0.5);
+}
+  
+.custom-checkbox .custom-control-input:disabled:indeterminate ~ .custom-control-label::before {
+    background-color: white;
+}

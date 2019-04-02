@@ -1,0 +1,8 @@
+.check-icon {
+    display: none;
+}
+
+.colours-list__item:hover .check-icon {
+    color: #FFFFFF;
+    display: block;
+}

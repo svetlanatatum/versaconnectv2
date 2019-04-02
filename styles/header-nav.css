@@ -1,0 +1,22 @@
+.header-nav {
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #F2F2F2;
+    margin: 0;
+}
+
+.header-nav-item {
+   padding: 10px;
+}
+
+.header-nav__link {
+    color: black;
+    padding: 15px 0 15px 0;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.header-nav__link:hover {
+    color: black;
+    text-decoration: none;
+}
